@@ -2,8 +2,8 @@ name: Check taxi course slots
 
 on:
   schedule:
-    # Runs every 22 minutes
-    - cron: "*/22 * * * *"
+    # Runs every 5 minutes
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 jobs:
