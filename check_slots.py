@@ -21,7 +21,7 @@ def slots_available() -> bool:
     page_text = resp.text.lower()
     # Page says "no available sessions" when full. If that phrase is gone,
     # something has changed - most likely slots have appeared.
-    return NO_SLOTS_TEXT not in page_text
+    return True
 
 
 def send_email():
