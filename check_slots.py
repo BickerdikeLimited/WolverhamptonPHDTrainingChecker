@@ -28,7 +28,7 @@ def send_email():
     msg = MIMEText(
         f"Slots may now be available (or the page changed):\n\n{URL}"
     )
-    msg["Subject"] = "Taxi course: slots may be available!"
+    msg["Subject"] = "Change detected on Private Hire Driver training programme: slots may be available!"
     msg["From"] = SMTP_USER
     msg["To"] = NOTIFY_TO
 
